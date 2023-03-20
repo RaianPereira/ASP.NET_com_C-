@@ -1,0 +1,143 @@
+﻿body {
+    margin: 0;
+    font-family: 'Agency FB';
+}
+body *{
+    box-sizing: border-box;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.left-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction:column;
+}
+
+.left-login > h1 {
+    font-size: 3vw;
+   color: rgb(248 68 245);
+}
+
+.right-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: rgb(248 68 245);
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px rgb(200 40 190);
+}
+
+.card-login > h1{
+    color: black;
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin:10px 0px;
+}
+
+#TextBox1, #TextBox2 {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: rgb(180 35 150);
+    color: white;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px rgb(200 40 190);
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Agency FB';
+}
+
+#Label1, #Label2, #Label3{
+    color : black;
+    margin-bottom: 10px;
+    font-family: 'Agency FB';
+}
+
+#TextBox1::placeholder, #TextBox2::placeholder {
+    color: black;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: black;
+    background: rgb(200 40 190);
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px rgb(150 30 130);
+    font-family:'Agency FB';
+}
+.btn-login:hover {
+    background-color: rgb(150 30 130);
+}
+
+#Image1{
+    width: 35vw;
+}
+
+@media only screen and (max-width: 950px){
+    .card-login{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .main-login{
+        flex-direction: column;
+    }
+    .left-login > h1 {
+        display: none;
+    }
+    .left-login{
+        width: 100%;
+        height: auto;
+    }
+    .right-login{
+        width: 100%;
+        height: auto;
+    }
+    .left-login #Image1{
+        width: 50vw;
+    }
+    .card-login{
+        width: 90%;
+    }
+}
+

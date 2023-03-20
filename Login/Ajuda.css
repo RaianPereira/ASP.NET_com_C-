@@ -1,0 +1,102 @@
+﻿body {
+    background-image: url('Imagens/resumo-luxo-simples-desfocar-gradiente-de-cinza-e-preto-usado-como-parede-de-estudio-de-fundo-para-exibir-seus-produtos.jpg');
+}
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Agency FB';
+
+}
+
+#Panel2, #Panel1 {
+    text-align: center;
+    align-items: center;
+    padding: 3px;
+}
+#menu {
+    background-color: rgb(37, 37, 39);
+}
+
+#menu ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+    background-color: rgb(37, 37, 39);
+    font-size: 25px;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    transition: background .4s;
+}
+
+#menu ul li a:hover {
+     background-color: rgb(248 68 245);
+}
+
+#menu ul li:last-child a {
+     float: right;
+     background-color: rgb(228 58 225);
+     border-radius: 3px;
+}
+
+#Button1, #Button2 {
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.1);
+    align-items: center;
+    text-align: center;
+}
+
+
+#Button1:hover, #Button2:hover {
+    background-color: black;
+    transition: background .4s;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+#TextBox1, #TextBox2 {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 3px;
+    font-size: 22px;
+    margin-left: 10px;
+    color: white;
+}
+#TextBox1:hover, #TextBox2:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#Label1, #Label2, #Label3 {
+    font-size: 25px;
+    color: black;
+}
+
+#TextBox3 {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 3px;
+    font-size: 22px;
+    margin-left: 10px;
+    color: white;
+    margin-top: 3px;
+}
+
+#Label4{
+    color: black;
+    font-size: 25px;
+}

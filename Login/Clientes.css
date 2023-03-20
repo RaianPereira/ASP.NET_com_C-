@@ -1,0 +1,113 @@
+﻿body {
+    background-image: url('Imagens/resumo-luxo-simples-desfocar-gradiente-de-cinza-e-preto-usado-como-parede-de-estudio-de-fundo-para-exibir-seus-produtos.jpg');
+    text-align: center;
+    align-items: center;
+}
+
+#TextBox1, #TextBox2, #TextBox3, #TextBox4, #TextBox5, #TextBox6, #TextBox7, #TextBox8, #TextBox9, #TextBox10, #TextBox11, #TextBox12, #TextBox13 {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 3px;
+    font-size: 22px;
+    margin-left:10px;
+    color: white;
+    
+}
+
+#TextBox1:hover, #TextBox2:hover, #TextBox3:hover, #TextBox4:hover, #TextBox5:hover, #TextBox6:hover, #TextBox7:hover, #TextBox8:hover, #TextBox9:hover, #TextBox10:hover, #TextBox11:hover, #TextBox12:hover,
+#TextBox13:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+#Label1, #Label2, #Label3, #Label4, #Label5, #Label6, #Label7, #Label8, #Label9, #Label10, #Label11, #Label12, #Label13, #Label14, #Label15, #Label16, #Label17, #Label18, #Label19, #Label20, #Label21 {
+    font-size: 25px;
+    color: black;
+}
+
+#Button1, #Button2, #Button3, #Button4, #Button5, #Button6 {
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+
+#Button1:hover, #Button2:hover, #Button3:hover, #Button4:hover, #Button5:hover, #Button6:hover {
+    background-color: black;
+    transition: background .4s;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+}
+#RadioButton1 {
+    color: black;
+}
+
+
+
+::-webkit-scrollbar{
+    width: 13px;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 13px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#FileUpload1 {
+    border: none;
+    font-family:'Agency FB';
+    font-family: 35px;
+    color: black;
+    cursor: pointer;
+}
+
+#Panel5{
+    text-align: center;
+    align-items: center;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Agency FB';
+}
+
+#menu {
+    background-color: rgb(37, 37, 39);
+}
+
+#menu ul {
+    margin-left: 50px;
+    max-width: 1400px;
+    list-style: none;
+    padding: 0;
+    background-color: rgb(37, 37, 39);
+    font-size: 25px;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    transition: background .4s;
+}
+
+#menu ul li a:hover {
+    background-color: rgb(248 68 245);
+}
+
+#menu ul li:last-child a {
+    float: right;
+    background-color: rgb(228 58 225);
+    border-radius: 3px;
+}
+
